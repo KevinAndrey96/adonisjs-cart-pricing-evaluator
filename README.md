@@ -26,11 +26,11 @@ This project implements a backend fulfillment and catalog evaluation engine desi
 
 All accompanying architectural blueprints, database designs, and evaluation materials are available directly in this repository:
 
-- 📄 **[Technical Write-Up & Architecture Paper (PDF)](./Desarrollo%20de%20la%20prueba.pdf)** — Complete technical documentation detailing architectural decisions, mathematical analysis, and implementation notes.
-- 🗄️ **[Relational Database Schema (SQL)](./BaseDeDatos.sql)** — Complete DDL and seed scripts for MySQL / relational database.
-- 📬 **[Postman API Suite (JSON)](./PostmanCollection.json)** — Ready-to-import Postman test collection with sample payloads.
-- 📊 **[LaTeX Source Documents](./LaTeX/)** — Academic-grade LaTeX source files, charts, and diagrams.
-- 📥 **[Test Inputs & Evaluation Datasets](./Enunciado%20e%20inputs/)** — Sample order, inventory, and supplier catalog JSON datasets.
+- 📄 **[Technical Write-Up & Architecture Paper (PDF)](./Desarrollo%20de%20la%20prueba.pdf)**: Complete technical documentation detailing architectural decisions, mathematical analysis, and implementation notes.
+- 🗄️ **[Relational Database Schema (SQL)](./BaseDeDatos.sql)**: Complete DDL and seed scripts for MySQL / relational database.
+- 📬 **[Postman API Suite (JSON)](./PostmanCollection.json)**: Ready-to-import Postman test collection with sample payloads.
+- 📊 **[LaTeX Source Documents](./LaTeX/)**: Academic-grade LaTeX source files, charts, and diagrams.
+- 📥 **[Test Inputs & Evaluation Datasets](./Enunciado%20e%20inputs/)**: Sample order, inventory, and supplier catalog JSON datasets.
 
 ---
 
