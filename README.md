@@ -1,4 +1,4 @@
-# 🛒 Cart & Retail Inventory Pricing Evaluator
+# 🛒 AdonisJS Cart & Retail Inventory Pricing Evaluator
 > **E-Commerce Order Fulfillment, Inventory Balancing & Sales Analytics Microservice**
 
 <div align="center">
@@ -14,11 +14,35 @@
 
 ## 📌 Context & Overview
 
-This project implements a backend fulfillment and catalog evaluation engine designed for high-concurrency retail e-commerce environments. 
+This project implements a backend fulfillment and catalog evaluation engine designed for high-concurrency retail e-commerce environments using **AdonisJS (Node.js)**.
 
 > [!NOTE]
 > **Engineering Background:**  
 > This solution was originally designed and built as the **technical evaluation for joining Merqueo** (one of Latin America's largest online grocery delivery tech companies). Demonstrating architectural clarity, database optimization, and scalable business logic in this assessment paved the way for my tenure at the company, where I subsequently advanced to **Technical Leader**, driving retail engineering across Colombia, Mexico, and Brazil.
+
+---
+
+## 📑 Technical Documentation & Artifacts
+
+All accompanying architectural blueprints, database designs, and evaluation materials are available directly in this repository:
+
+- 📄 **[Technical Write-Up & Architecture Paper (PDF)](./Desarrollo%20de%20la%20prueba.pdf)** — Complete technical documentation detailing architectural decisions, mathematical analysis, and implementation notes.
+- 🗄️ **[Relational Database Schema (SQL)](./BaseDeDatos.sql)** — Complete DDL and seed scripts for MySQL / relational database.
+- 📬 **[Postman API Suite (JSON)](./PostmanCollection.json)** — Ready-to-import Postman test collection with sample payloads.
+- 📊 **[LaTeX Source Documents](./LaTeX/)** — Academic-grade LaTeX source files, charts, and diagrams.
+- 📥 **[Test Inputs & Evaluation Datasets](./Enunciado%20e%20inputs/)** — Sample order, inventory, and supplier catalog JSON datasets.
+
+---
+
+## 🗄️ Database Entity-Relationship Model
+
+The relational model optimizes order line-item traversal, inventory deduction, and supplier drop-ship assignment:
+
+<div align="center">
+
+![Database Entity-Relationship Model](./LaTeX/BD.png)
+
+</div>
 
 ---
 
@@ -45,9 +69,9 @@ The microservice automates critical e-commerce fulfillment and catalog decisions
 ## 🛠️ Architecture & Tech Stack
 
 - **Framework:** [AdonisJS](https://adonisjs.com/) (Node.js MVC with IoC container and lucid ORM)
-- **Database:** Relational SQL with normalized schema (`BaseDeDatos.sql`)
+- **Database:** Relational SQL with normalized schema ([`BaseDeDatos.sql`](./BaseDeDatos.sql))
 - **Containerization:** Multi-stage Docker setup with `docker-compose` orchestration
-- **API Specification:** Pre-configured Postman Collection included in repository root (`PostmanCollection.json`)
+- **API Specification:** Pre-configured Postman Collection included in repository root ([`PostmanCollection.json`](./PostmanCollection.json))
 
 ---
 
@@ -99,7 +123,7 @@ The service will be live at `http://localhost:8080`.
 
 ## 🧪 Testing with Postman
 
-Import the included `PostmanCollection.json` into Postman or Insomnia to execute the end-to-end population and evaluation workflows out of the box.
+Import the included [`PostmanCollection.json`](./PostmanCollection.json) into Postman or Insomnia to execute the end-to-end population and evaluation workflows out of the box.
 
 ---
 
